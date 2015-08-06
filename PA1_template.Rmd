@@ -143,4 +143,4 @@ xyplot(steps ~ time.index  | daytype, data = ts.split,
        main = "Average number of steps during the day, weekday versus weekend",
        scales = list(x = list(at=c(1,49,97,145,193,241),
                               labels=c("12AM","4AM","8AM","12PM","4PM","8PM"))))
-```{r}
+```
